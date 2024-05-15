@@ -1,7 +1,7 @@
 export function createBoard(num: number) {
   let numbers: number[] = [];
   for (let i = 0; i < num; i++) {
-    numbers.push(i);
+    numbers.push(i + 1);
   }
 
   let currentIndex = numbers.length;

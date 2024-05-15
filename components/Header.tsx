@@ -17,6 +17,8 @@ const styles = StyleSheet.create({
     width: "100%",
     backgroundColor: TXT_BG_COLOR,
     padding: 20,
+    borderBottomStartRadius: 60,
+    borderBottomEndRadius: 60,
   },
   title: {
     fontSize: 20,

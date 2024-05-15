@@ -9,9 +9,9 @@ import { BG_COLOR } from "./consts/colors";
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <LotteryInfo />
-      {/* <Header />
-      <Board /> */}
+      {/* <LotteryInfo /> */}
+      <Header />
+      <Board />
     </SafeAreaView>
   );
 }
